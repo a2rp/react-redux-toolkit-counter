@@ -1,3 +1,6 @@
+![image](https://github.com/a2rp/react-redux-toolkit-counter/assets/5670738/951aedc6-a558-41dd-92ea-24a497925a5f)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
