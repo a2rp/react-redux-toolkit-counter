@@ -8,6 +8,7 @@ A small responsive React counter powered by Redux Toolkit. It demonstrates a foc
 - Increment, decrement and reset actions
 - Accessible buttons and live counter output
 - Fixed branded header, responsive card and icon-only footer links
+- Floating go-to-top control with smooth scrolling
 
 ## Tech Stack
 
