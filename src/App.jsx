@@ -45,9 +45,9 @@ const App = () => {
           <p className={styles.eyebrow}>Redux Toolkit</p>
           <h1>Counter state, kept simple.</h1>
           <p className={styles.description}>Use the controls to update a shared value through a Redux slice.</p>
-          <div className={styles.counter} aria-live="polite">
+          <div className={styles.counter}>
             <button className={styles.control} type="button" onClick={() => dispatch(decrement())} aria-label="Decrease counter"><FiMinus aria-hidden="true" /></button>
-            <output className={styles.value} aria-label="Current counter value">{counter}</output>
+            <output className={styles.value} aria-label="Current counter value" aria-live="polite">{counter}</output>
             <button className={styles.control} type="button" onClick={() => dispatch(increment())} aria-label="Increase counter"><FiPlus aria-hidden="true" /></button>
           </div>
           <button className={styles.reset} type="button" onClick={() => dispatch(reset())}>Reset value</button>
