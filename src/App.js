@@ -35,7 +35,7 @@ const App = () => {
     <div className={styles.container}>
       <header className={styles.header}>
         <a className={styles.brand} href="https://github.com/a2rp/react-redux-toolkit-counter" target="_blank" rel="noopener noreferrer">
-          <img src={process.env.PUBLIC_URL + "/logo.png"} alt="Ashish Ranjan logo" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Ashish Ranjan logo" />
           <span>Redux Counter</span>
         </a>
         <span className={styles.headerNote}>A small state management demo</span>

@@ -1,3 +1,4 @@
+import { expect, test } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { Provider } from "react-redux";
 import App from "./App";

@@ -12,19 +12,19 @@ A small responsive React counter powered by Redux Toolkit. It demonstrates a foc
 
 ## Tech Stack
 
-React, Redux Toolkit, React Redux, Create React App, Sass and CSS Modules.
+React, Redux Toolkit, React Redux, Vite, Vitest, Sass and CSS Modules. Use Node.js 20.19+ or 22.12+.
 
 ## Run locally
 
 ```bash
 npm install
-npm start
+npm run dev
 ```
 
 ## Build and deploy
 
 ```bash
-npm test -- --watchAll=false
+npm test -- --run
 npm run build
 npm run deploy
 ```
